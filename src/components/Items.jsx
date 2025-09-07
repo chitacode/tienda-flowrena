@@ -4,7 +4,7 @@ function Items({mensaje}) {
   return (
     <div>
         Items1:{mensaje}
-    
+     
     </div>
   )
 }
