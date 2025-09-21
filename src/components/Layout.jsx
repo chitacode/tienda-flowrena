@@ -1,11 +1,15 @@
 import React from 'react'
 import {Link, Outlet} from 'react-router-dom'
+import styles from './Navbar.module.css';
+import Logo from './Logo';
+import CartWidget from './CartWidget';  
+
 function Layout() {
   return (
     <div>
-
- <nav>
-  <u>
+ <nav className={styles.navbar}>
+  <div className={styles.logo}> <Logo/></div>
+  <ul className={styles.navLinks}>
      <li>
        <Link to="/">Home</Link>
      </li>
@@ -15,11 +19,11 @@ function Layout() {
    <li> 
         <Link to="/contacto">Contacto</Link>
     </li>      
-  </u>
+  </ul>
+   <div className= {styles.cart}><CartWidget/></div>
  </nav>  
  <Outlet/>
-    
-    </div>
+  </div>
 )
 }
 
