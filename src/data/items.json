@@ -3,21 +3,21 @@
     "id": 1,
     "mensaje": "Remera Oversize Negra",
     "precio": 12000,
-    "imagen": "images/itemProducts/remera.jpg",
+    "imagen": "/images/itemProducts/remera.jpg",
     "categoria": "Ropa"
   },
   {
     "id": 2,
     "mensaje": "Buzo Hoodie Beige",
     "precio": 25000,
-    "imagen": "images/itemProducts/remera4.jpg",
+    "imagen": "/images/itemProducts/remera4.jpg",
     "categoria": "Ropa"
   },
   {
     "id": 3,
     "mensaje": "Gorra Flowrena",
     "precio": 8000,
-    "imagen": "images/itemProducts/remera3.jpg",
+    "imagen": "/images/itemProducts/remera3.jpg",
     "categoria": "Accesorios"
   }
 ]
