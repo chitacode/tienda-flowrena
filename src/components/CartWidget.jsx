@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { CartContext } from '../context/CartContext'
-import Carrito from '/src/assets/cart3.png'
+import Carrito from '/src/assets/cart3.png';
 
 
 function CartWidget() {
