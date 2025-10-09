@@ -5,6 +5,7 @@
     "precio": 12000,
     "imagen": "/images/itemProducts/remera.jpg",
     "categoria": "remera"
+    "stock": 3
   },
   {
     "id": 2,
@@ -12,6 +13,7 @@
     "precio": 25000,
     "imagen": "/images/itemProducts/remera4.jpg",
     "categoria": "buzo"
+    "stock": 2
   },
   {
     "id": 3,
@@ -19,5 +21,6 @@
     "precio": 8000,
     "imagen": "/images/itemProducts/remera3.jpg",
     "categoria": "gorra"
+    "stock": 2
   }
 ]
