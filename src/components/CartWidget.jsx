@@ -9,7 +9,9 @@ function CartWidget() {
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
       <img src={Carrito} alt="Carrito" style={{ width: '50px', height: 'auto' }} />
-      <span>{cart.length}</span>
+     <div style={{ background: 'red', borderRadius: '50%', color: 'white', width: '20px', height: '20px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      {cart.length}
+     </div>
     </div>
   )
 }
